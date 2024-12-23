@@ -74,7 +74,6 @@ def save_as_json(data, output_path):
         raise Exception(f"An error occurred while saving to JSON: {e}")
 
 def main():
-    # Update with the actual file paths if needed
     input_file = 'C:\\code_repos\\serpapi\\serpapi-code-challenge\\files\\van-gogh-paintings.html'
     output_file = 'python_extracted_paintings.json'
 
